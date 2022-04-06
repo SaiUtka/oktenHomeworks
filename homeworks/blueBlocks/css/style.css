@@ -27,7 +27,7 @@
 }
 .item {
     background-color: #16457a;
-    width: 160px;
+    width: calc(100%/3 - 5px);
     display: flex;
     align-items: center;
     justify-content: center;
