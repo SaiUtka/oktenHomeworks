@@ -1,0 +1,48 @@
+body {
+    font-size: 50px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container-a {
+    height: 30%;
+    background-color: silver;
+}
+
+.wrap {
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bcdefg {
+    width: calc(75% - 10px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(33% - 5px);
+    height: calc(50% - 10px);
+    background-color: silver;
+}
+
+.container-h {
+    width: 25%;
+    height: calc(100% - 10px);
+    background-color: silver;
+}
