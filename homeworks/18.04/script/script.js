@@ -20,14 +20,14 @@ if (a !== 0) {
 // (в першу, другу, третю или четверту частину години).
 
 
-let time =  55
-if (time < 15) {
+let time =  29
+if (time < 15 && time >= 0) {
     console.log('its first')
-} else if (time < 30) {
+} else if (time >=15 &&time < 30) {
     console.log('its second')
-} else if (time < 45) {
+} else if (time >= 30 && time < 45) {
     console.log('its third')
-} else if (time < 60) {
+} else if (time >= 45 &&time < 60) {
     console.log('its fourth')
 } else {
     console.log('it have to be 1-59')
@@ -103,8 +103,8 @@ switch (dayOfWeek) {
 //     Також потрібно врахувати коли введені рівні числа.
 
 
-// // let s = +prompt('what is the first number?')
-// let d = +prompt('what is the second number?')   /*закоментував, шоб не вискакували модалки*/
+//let s = +prompt('what is the first number?')
+//let d = +prompt('what is the second number?')   /*закоментував, шоб не вискакували модалки*/
 if (s > d) {
     document.write(s)
 } else if (s < d) {
