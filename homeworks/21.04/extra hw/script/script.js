@@ -72,5 +72,6 @@ let res = 0
 for (const number of arr) {
     res = res + number
 }
-console.log(res / 2)
+console.log(res / arr.length)
 */
+
