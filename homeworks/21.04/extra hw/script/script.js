@@ -66,12 +66,10 @@ for (let i = 0; i < array.length; i++) {
 
 // 6. Є масив з числами [100,250,50,168,120,345,188],
 // Які характеризують вартість окремої покупки. Обрахувати середній чек.
-/*
-let arr = [100, 250, 50, 168, 120, 345, 188]
-let res = 0
-for (const number of arr) {
-    res = res + number
-}
-console.log(res / arr.length)
-*/
+// let arr = [100, 250, 50, 168, 120, 345, 188]
+// let res = 0
+// for (const number of arr) {
+//     res = res + number
+// }
+// console.log(res / arr.length)
 
