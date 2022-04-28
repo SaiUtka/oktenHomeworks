@@ -257,3 +257,17 @@ let fn = (arr) => {
 let a = [10, 20, 30, -10, -20, 20]
 console.log(fn(a));
 */
+
+
+// -створити функцію, яка приймає масив з 2х об'єктів, та міняє їх місцями.
+/*
+ let fn = (arr) => {
+     let res = []
+     for (let i = arr.length - 1; i >= 0; i--) {
+          res.push(arr[i])
+     }
+     return res
+ }
+ let array = [{id: 1, name: 'Alice', age: 25}, {id: 2, name: 'Andrii', age: 27}]
+console.log(fn(array));
+*/
