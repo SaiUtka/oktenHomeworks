@@ -182,3 +182,32 @@ let fn = (arr) => {
 let array = [3, 1, 3, 4, 0, 3, 0, 7, 0, 3, 4, 5, 0, 345, 2, 0, 123, 4, 5, 3, 0, 6345, 0, 3456, 3, 5, 32]
 console.log(fn(array));
 */
+
+// v2
+
+/*
+let fn = (arr) => {
+    let notZero = []
+    let zero = []
+    let result = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] !== 0) {
+            notZero.push(arr[i])
+        } else {
+            zero.push(arr[i])
+        }
+    }
+    for (const item of notZero) {
+        result.push(item)
+    }
+    for (const item of zero) {
+        result.push(item)
+    }
+    return result
+}
+
+let array = [1, 3, 6, 0, 12, 54, 7, 0, 23, 5, 33, 543, 60, 0, 53, 0, 5, 2, 5, 0, 34]
+console.log(fn(array));
+*/
+
+
