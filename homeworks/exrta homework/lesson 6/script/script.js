@@ -164,6 +164,19 @@ console.log(capitalize(str));
 // someeMAIL@gmail.com
 // someeMAIL@i.ua
 // some.email@gmail.com
+/*
+let mailValidator = (str) => {
+    let mail = str.toLowerCase();
+    if (mail.includes('@' + 2) && mail.indexOf('@') + 2 < mail.lastIndexOf('.')) {
+        return mail;
+    }
+    return 'email is incorrect';
+}
+console.log(mailValidator('someemail@gmail.com'));
+console.log(mailValidator('someeMAIL@gmail.com'));
+console.log(mailValidator('someeMAIL@i.ua'));
+console.log(mailValidator('some.email@gmail.com'));
+*/
 
 
 //-----------------------------------------------------------------------------------------------------------------
