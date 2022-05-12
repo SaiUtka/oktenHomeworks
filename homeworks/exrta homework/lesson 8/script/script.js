@@ -10,7 +10,7 @@ let fn = (item) => {
         }
         fn(child);
     }
-    return res
+    return res.join(' ').split(' ');
 };
 let content = document.body
 console.log(fn(content));
