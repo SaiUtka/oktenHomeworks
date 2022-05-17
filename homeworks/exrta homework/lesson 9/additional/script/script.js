@@ -1,3 +1,7 @@
+
+//- Є масив :
+
+/*
 let usersList = [
     {
         id: 1,
@@ -230,7 +234,13 @@ let usersList = [
         }
     }
 ];
+*/
 
+//=================================================== TASK 1 =====================================================
+
+//Створити під кожен елемент окремий блок. В цьому блоці, під кожну властивість,
+// та властивості внутрішніх об'єктів створити свої окремі блок.
+/*
 for (const users of usersList) {
     const usersWrap = document.createElement('div');
     document.body.appendChild(usersWrap);
@@ -273,6 +283,43 @@ for (const users of usersList) {
         }
     }
 }
+*/
+
+
+
+//=================================================== TASK 2 =====================================================
+
+
+//за допомоги рекурсії перебрати структуру сторінки. зробити об'єкт, всі заголовки покласти в (масив)
+// характеристику headings,всі параграфи покласти в характеристику (масив) paragraphs
+/*
+let res = {
+    headings: [],
+    paragraphs: []
+};
+let fn = (item) => {
+    let children = item.children;
+    for (const child of children) {
+        if (child.tagName === 'H1') {
+            res.headings.push(child.innerHTML);
+        }
+        else if (child.tagName === 'P') {
+            res.paragraphs.push(child.innerHTML);
+        }
+        fn(child);
+    }
+    return res
+}
+console.log(fn(document.body));
+*/
+
+
+//=================================================== TASK 3 =====================================================
+
+//не зрозумів, шо тут треба зробити
+
+// зробити div contenteditable ввести будь яке ціле слово. та при натисканні табуляції перетворити його на подвійний тег
+// asd ->tab-> <asd></asd>
 
 
 
