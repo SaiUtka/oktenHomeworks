@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework</title>
+
+    <style>
+
+        /*=================================================== TASK 1 =====================================================*/
+
+        #posts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 10px;
+
+        }
+
+        .post {
+            border: 2px solid darkblue;
+            width: 19.5%;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            row-gap: 20px;
+        }
+
+        .post_user-id {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .post_id {
+            font-size: 25px;
+        }
+
+        .post_title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #676666;
+        }
+
+        .post_body {
+            font-size: 25px;
+        }
+
+
+        /*=================================================== TASK 2 =====================================================*/
+
+
+        #comments {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 10px;
+            row-gap: 10px;
+            justify-content: space-between;
+        }
+
+        .comment {
+            border: 2px solid darkblue;
+            display: flex;
+            width: 19.4%;
+            flex-direction: column;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            row-gap: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--=================================================== TASK 1 =====================================================-->
+<div id="posts"></div>
+
+<!--=================================================== TASK 2 =====================================================-->
+<div id="comments"></div>
+
+<script src="script/script.js"></script>
+</body>
+</html>
