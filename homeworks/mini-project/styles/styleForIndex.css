@@ -1,0 +1,50 @@
+
+#users {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: calc(50% - 10px);
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.user_items {
+    display: flex;
+    column-gap: 25px;
+}
+
+.user_id, .user_name {
+    margin: 0;
+}
+
+.user_btn {
+    margin: 20px 0 10px;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s;
+    color: black;
+    border: 2px solid #676666;
+    background-color: #ffffff;
+
+}
+
+.user_btn:hover {
+    color: #ffffff;
+    background-color: #676666;
+    transition: 0.2s;
+}
